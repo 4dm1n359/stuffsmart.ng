@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café & Grills Menu</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Great Vibes', cursive;
+      background: linear-gradient(135deg, #f4e1c6, #d9c3a3, #f8f0e3);
+      color: #4a3b2c;
+      text-align: center;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.5);
+      padding: 20px;
+      border-bottom: 2px solid #c0a278;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      margin: 0;
+      color: #7b5636;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.7);
+      margin: 30px auto;
+      max-width: 700px;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #7b5636;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    li {
+      font-size: 1.5rem;
+    }
+
+    .qr {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .qr img {
+      background: white;
+      padding: 10px;
+      border-radius: 15px;
+      width: 150px;
+      height: 150px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .qr a {
+      color: #7b5636;
+      text-decoration: none;
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+
+    footer {
+      margin-top: 50px;
+      background: rgba(255, 255, 255, 0.5);
+      padding: 10px;
+      border-top: 2px solid #c0a278;
+      color: #7b5636;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> Café & Grills </h1>
+    <p>Welcome to your cozy corner of great taste</p>
+  </header>
+
+  <section>
+    <h2>Shawarma</h2>
+    <ul>
+      <li>Small — 2000₦</li>
+      <li>Medium — 2500₦</li>
+      <li>Large — 3000₦</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Burgers</h2>
+    <ul>
+      <li>Normal Burger — 2000₦</li>
+      <li>Cheese Burger — 2500₦</li>
+      <li>Special Burger — 3000₦</li>
+      <li>Chicken Wings — 3000₦</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Drinks</h2>
+    <ul>
+      <li>Slush — Small 600₦ | Big 1000₦</li>
+      <li>Boba Tea — Small 2000₦ | Big 3500₦</li>
+      <li>Coffee — Small 2000₦ | Big 3500₦</li>
+      <li>Orange Juice — Small 1000₦ | Big 1500₦</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Snacks & Treats</h2>
+    <ul>
+      <li>Plain Waffles — 1000₦ | Toppings — 500₦</li>
+      <li>Filled Waffles — 1500₦ | Syrup — 500₦</li>
+      <li>Meatpie — 500₦ | Ice Cream — 500₦</li>
+      <li>Popcorn — 500₦ | Gummy Bears — 1000₦</li>
+    </ul>
+  </section>
+
+  <div class="qr">
+    <h2>Follow us on Instagram</h2>
+    <a href="https://www.instagram.com/stuffsmart.ng/" target="_blank">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.instagram.com/stuffsmart.ng/" alt="QR Code for Café & Grills Instagram" />
+      <br>Visit @stuffsmart.ng
+    </a>
+  </div>
+
+  <footer>
+    <p>© 2025 Café & Grills • Designed with love and coffee </p>
+  </footer>
+</body>
+</html>
+<div style="text-align:center; margin-top:40px;">
+  <h2>📱 View or Download Our Menu</h2>
+
+  <!-- View Menu QR -->
+  <div style="display:inline-block; margin:20px;">
+    <h3>View Menu</h3>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=file:///C:/path/to/stuffs%20website%205ex.html" 
+         alt="QR Code to view menu" 
+         style="background:white; padding:10px; border-radius:10px;">
+  </div>
+
+  <!-- Download Menu QR -->
+  <div style="display:inline-block; margin:20px;">
+    <h3>Download Menu</h3>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=file:///C:/path/to/stuffs%20website%205ex.html" 
+         alt="QR Code to download menu" 
+         style="background:white; padding:10px; border-radius:10px;">
+    <p><a href="stuffs%20website%205ex.html" download>Click here to download manually</a></p>
+  </div>
+</div>
